@@ -168,7 +168,7 @@ switch (dayNumber) {
 //        Потрібно знайти та вивести максимальне число з тих двох .
 //        Також потрібно врахувати коли введені рівні числа.
 
-let firstNum = 'hello';
+let firstNum = 1;
 let secondNum = 100;
     if(typeof firstNum =="number"&&typeof secondNum=="number"){
         if (firstNum>secondNum){
@@ -182,12 +182,18 @@ let secondNum = 100;
 
 //    - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
 //        за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться до false)
-let x = NaN;
-if(!x){
-    x = 'default';
+let x = false;
+if(x===false||x===null||x===undefined||x===0||x===-0||x===0n||x===NaN||x===""){
+    x = 'default'
 }
 console.log(x)
 
+//Або
+let xxx = NaN;
+if (!xxx){
+    xxx = 'default'
+}
+console.log(xxx)
 //    - з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф перевірити кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
 let coursesAndDurationArray = [
     {title: 'JavaScript Complex', monthDuration: 5},
