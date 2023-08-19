@@ -187,9 +187,8 @@ if(x===false||x===null||x===undefined||x===0||x===-0||x===0n||x===NaN||x===""){
     x = 'default'
 }
 console.log(x)
-
-//Або
-let xxx = NaN;
+//-----Або
+let xxx = 0;
 if (!xxx){
     xxx = 'default'
 }
