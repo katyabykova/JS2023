@@ -1,0 +1,37 @@
+.bigBox{
+display: flex;
+}
+.member{
+    width: 20vw;
+    border: 1px solid pink;
+    margin: 10px;
+    padding: 10px;
+}
+.box{
+    border: 1px solid red;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink;
+    margin: 10px;
+}
+.boxes {
+    border: 1px solid blue;
+    margin: 10px 5%;
+    text-align: center
+}
+.title{
+    width: 90%;
+}
+.mounth{
+    width: 20%;
+}
+.hour{
+    width: 59.20%;
+}
+.littleBox{
+    width: 90%;
+}
+img{
+    width: 200px;
+}
