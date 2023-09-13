@@ -4,6 +4,17 @@
 // - додати цей блок в body.
 // - клонувати його повністю, та додати клон в body.
 
+let div = document.createElement('div');
+div.classList.add('wrap', 'collapse', 'alpha', 'beta');
+div.style.backgroundColor = 'pink';
+div.style.color = 'blue';
+div.style.fontSize = '50px';
+div.innerText = 'HELLO';
+let cloneDiv = div.cloneNode(true);
+document.body.append(div,cloneDiv);
+
+
+
 // - Є масив:
 let arr = ['Main', 'Products', 'About us', 'Contacts']
 // Зробити ul в середині якої будуть лежати елементи масиву (кожен в своєму li)
