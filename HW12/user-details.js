@@ -6,12 +6,12 @@ let details = fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
            for (const element in value){
                if(typeof value[element] !== 'object'){
                let div = document.createElement('div');
-               div.innerText = `${element}: ${value[element]}`
+               div.innerText = `${element.toUpperCase()} : ${value[element]}`
                document.body.append(div)
            }else{
                    let div1 = document.createElement('div');
                    document.body.append(div1);
-                   div1.innerText = `${element}:`
+                   div1.innerText = `${element.toUpperCase()} :`
                    print(value[element])
                }
            }
