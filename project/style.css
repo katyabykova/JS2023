@@ -1,0 +1,182 @@
+body {
+    background-image: url("7573940.jpg");
+    background-size: 100%;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 2vh;
+    color: #2f3131;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-shadow: 1px 1px 2px rgba(255, 192, 203, 0.25), 1px 1px 2px white;
+    line-height: 3vh;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.just_center {
+    justify-content: center;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.al_ev {
+    justify-content: space-evenly;
+}
+
+.userDiv {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: 10px 5px 5px rgba(208, 10, 222, 0.25);
+    cursor: pointer;
+    font-family: 'Epilogue', sans-serif;
+    box-sizing: border-box;
+}
+
+.userDiv:hover {
+    box-shadow: 0px 0px 100px white;
+    background: transparent;
+    border: 1px solid #e9b8ed;
+    outline: none;
+    transition: 1s ease-in-out;
+    font-size: 2.5vh;
+}
+
+.userDiv:disabled:hover {
+    color: #e9b8ed;
+    cursor: default;
+    font-size: 2vh;
+}
+
+button {
+    font-size: 2vh;
+    color: #2f3131;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #2f3131;
+    margin-top: 4vh;
+}
+
+.box {
+    border: 0.5px solid white;
+    box-shadow: 0px 1px 100px white;
+}
+
+.col_gap {
+    column-gap: 5vw;
+}
+
+.col_gap2 {
+    column-gap: 2vw;
+}
+
+.h25w87 {
+    height: 28vh;
+    width: 87.7vw;
+}
+
+.w15 {
+    width: 14vw;
+}
+
+.w18 {
+    width: 18vw;
+}
+
+.w90 {
+    width: 90vw;
+    margin-top: 2vh;
+}
+
+.w31 {
+    width: 32vw;
+}
+
+.w30 {
+    width: 30vw;
+    height: 12vh;
+}
+
+.w65 {
+    width: 60vw;
+}
+
+.w80 {
+    width: 78vw;
+}
+
+.h6 {
+    height: 7vh;
+}
+
+.mtop40ptpl {
+    margin-top: 40px;
+    padding-top: 4vh;
+    padding-left: 2vw;
+}
+
+.h18 {
+    height: 18vh;
+}
+
+.h25 {
+    height: 40vh;
+}
+
+.h20 {
+    height: 20vh;
+    margin-top: 4vh;
+}
+
+.box > p {
+    height: 8vh;
+    overflow-y: hidden;
+}
+
+.title {
+    row-gap: 4vh;
+    margin-top: 4vh;
+}
+
+.p10px {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.post {
+    row-gap: 1.4vh;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.pbot {
+    padding-bottom: 20px;
+}
+
+.w18 > div {
+    margin: 10px;
+    height: 20vw;
+}
+
+.br {
+    border-radius: 10px;
+}
+
+.fs {
+    font-size: 1.8vh
+}
